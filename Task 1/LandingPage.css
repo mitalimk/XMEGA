@@ -1,0 +1,87 @@
+.nav p{
+    margin-top: 20px;
+    left: 500;
+    color:rgb(29, 141, 169) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    display: flex;
+    height: 60px;
+}
+.nav ul{
+    margin-left: 120px;
+    padding: 20px;
+
+    list-style-type: none;
+    display: flex;
+}
+ 
+
+.nav a{
+    text-decoration: none;
+
+    padding: 30px;
+    color:rgb(29, 141, 169) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav button{
+    height: 50px;
+    background-color:rgb(29, 141, 169) ;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+} 
+ul li ul.dropdown li{
+    display: block;
+
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: rgb(189, 203, 206) ;
+    position: absolute;
+    z-index: 9;
+    display: none;
+}
+ul li a:hover{
+    background-color: rgb(227, 206, 206) ;
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+    
+
+}
+.main{
+    margin-top: 20px;
+    height: 500px;
+    background-color: rgb(29, 141, 169);
+    color: aliceblue;
+}
+.small{
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left:150px;
+    font-family: segoe script;
+}
+.big{
+   
+    font-size: 60px;
+    /* padding-top: 100px; */
+    font-family:segoe script;
+    padding-left: 150px; 
+    display: inline-block;
+}
+.main img{
+    /* padding-top: 50px; */
+padding-top: 0px;
+float: right;
+
+margin: 0px;
+}
+
+
+
+
